@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown to Death | JobLessGod</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>💀 Count Down to Death 💀</h1>
+        <p>If you count, you will die in that time. I am not joking.
+        </p>
+    </center>
+    <div class="main-box">
+        <p id="demo"></p>
+        <br><br><br><br><br><br>
+
+    </div>
+    <center>
+        <div class="inner">
+            <input type="text" id="time">
+            <button onclick="takeValue()"><b>Click</b> </button>
+
+        </div>
+
+        <script>
+            function takeValue() {
+                var a = document.getElementById("time").value;
+                var b = parseInt(a);
+                b = b + 1;
+
+
+                var d = setInterval(function () {
+                    b--;
+                    if (b >= 0) {
+                        document.getElementById('demo').innerHTML = b;
+
+                    } else {
+                        clearInterval(d);
+                        alert("Count Down is Over");
+
+                    }
+                }, 1000);
+
+
+            }
+
+
+
+        </script>
+    </center>
+</body>
+
+</html>

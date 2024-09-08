@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+.main-box {
+    width: 130px;
+    height: 130px;
+    border: red solid 2px;
+    border-radius: 80px;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+#demo {
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 24px;
+}
+
+button {
+
+    background-color: rgb(26, 183, 26);
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 5px;
+    font-family: cunia;
+    border-radius:12%;
+    cursor: pointer;
+}
+
+.inner {
+    width: 38%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+h1 {
+
+    font-family: cunia;
+    margin-top: 2rem;
+    margin: 0 auto;
+}
+
+#time {
+    width: 5rem;
+    height: 1.5rem;
+}
